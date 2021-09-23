@@ -5,7 +5,7 @@ const cors = require("cors");
 
 app.use(cors());
 
-const PORT = 4000 || process.env.PORT;
+const PORT = process.env.PORT || 4000;
 
 const trackRouter = require("./router/route");
 
